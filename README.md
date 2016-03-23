@@ -1,3 +1,5 @@
+
+
 Ionic App Base
 =====================
 
@@ -14,12 +16,28 @@ $ npm install -g ionic
 ```
 
 Then run:
+```bash
+$ ionic start CordovaDemo tabs
+```
+
+If you download, you run:
+```bash
+$ ionic serve
+```
+
+If you change templates File, so you run:
+```bash
+$ ionic build ios
+```
 
 ```bash
-$ ionic start myProject tabs
+$ ionic build android
 ```
 
 More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
 
 ## Issues
 Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
+
+
+
